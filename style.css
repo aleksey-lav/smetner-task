@@ -93,7 +93,7 @@ p{
     align-items: center;
     margin-bottom: 20px;   
 }
-.d-flex input, textarea{
+.d-flex input, textarea::placeholder{
     padding-left: 15px;
     font-family: "Open Sans";
     font-size: 14px;
@@ -101,7 +101,9 @@ p{
     line-height: 20px;
     color: #777777;
 }
-
+textarea::placeholder{
+    padding-top: 14px;
+}
 .form-input-area{
     width: 100%;
     height: 190px;
